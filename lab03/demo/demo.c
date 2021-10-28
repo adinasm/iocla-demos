@@ -19,6 +19,10 @@
 	- proces
 */
 
+/*
+	Linux kernel: https://elixir.bootlin.com/linux/latest/source
+*/
+
 int main() {
 // 	for (...)
 // 		for (...)
