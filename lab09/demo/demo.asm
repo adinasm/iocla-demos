@@ -10,6 +10,8 @@ section .text
 extern printf
 global main
 
+; https://docs.google.com/presentation/d/1BwDVE_Qo0oo9WduuorB09m3k3QPXAQATZ-7yiqhxnuw/edit?usp=sharing
+
 ; short get_sum(char *v, int len);
 get_sum:
     push ebp
@@ -39,8 +41,6 @@ add_val:
 
     ret ; pop eip
 
-
-
 ; cdecl
 ; - parametrii se pun pe stiva
 ; - functia apelanta pune param ep stiva si tot ea ii scoate de acolo
@@ -69,7 +69,6 @@ main:
     push fmt_sum
     call printf
     add esp, 6
-
 
     leave
     ret
