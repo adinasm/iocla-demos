@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ops.h": "c",
+        "limits": "c"
+    }
+}
